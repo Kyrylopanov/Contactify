@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <META charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- mobile meta -->
+	<TITLE>Contactify</TITLE>
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css' />
+	<script type="text/javascript" src="./js/jquery-2.2.3.js"></script>
+	
+
+	
+</HEAD>
+    
+<BODY>
+	<header>
+		<nav id="menu">
+            <a href="#">DASHBOARD</a>
+            <a href="#">CONVERSATION</a>
+            <a href="#">NOTIFICATION</a>
+            <div class="container-menu">
+                <div id="select-person"> 
+                    <img src="./images/person-pic.png" alt="person" class="person-select">
+                    <p>Jorah Mormonth<p>
+                    <img src="./images/selector.png" alt="selector" class="person-selector">
+                    <div class="dropdown-content">
+                        <img src="./images/triangle.png" alt="triangle" class="triangle">
+                            <a href="#"><img src="./images/groups.png" alt="groups">Groups</a>
+                            <a href="#"><img src="./images/fcont.png" alt="contact">Frequently contacted</a>
+                            <a href="#"><img src="./images/pref.png" alt="preferences">Preferences</a>
+                            <a href="#"><img src="./images/logout.png" alt="logout">Log out</a>
+                          </div>
+                </div>
+            </div>
+		</nav>
+        <div class="line-green"></div>
+        <div class="container-contactify">
+            <img src="./images/contacify.png" alt="contacify" class="person-select">
+        </div>
+        <div class="line-grey"></div>
+        <div class="container-contactLeft">
+            <input type="text" id="enterName" class="text-name" placeholder="Name">
+            
+            <div class="styled-select">
+            
+                    <select id="select-city">
+                        <option value="Vilnius">Vilnius</option>
+                        <option value="Kaunas">Kaunas</option>
+                        <option value="Klaipeda">Klaipeda</option>
+                        <option value="Taurage">Taurage</option>
+                        <option value="Liepalingis">Liepalingis</option>
+                    </select>
+            </div>
+            <div class="container-btn1">
+                <div class="left-section"><img src="./images/filter.png" alt="filter"></div>
+                <div class="vertical-line"></div>
+                <div class="right-section" id="btnFilter">FILTER</div>
+                <div class="horizontal-line"></div>
+                    
+            </div>
+        </div>
+        <div class="container-contactRight">
+            <div class="container-btn2">
+                <div class="left-section2"><img src="./images/add.png" alt="filter"></div>
+                <div class="vertical-line2"></div>
+                <div class="right-section2" id="add-btn">ADD NEW CONTACT</div>
+                <div class="horizontal-line2"></div>
+                    
+            </div>
+        </div>
+	</header>
+    
+    
+	<div id="form-container">
+        <div class="form-main" id="contacts">
+            <table border="1" id="#fbody">
+                <tr>
+                    <th style="cursor:pointer">Name<img src="./images/cursor.png" alt="cursor"></th>
+                    <th>Surname</th>
+                    <th>City</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+                <tr class="hide" id="1">
+                    <td class="id" style="display:none;">1</td>
+                    <td class="name">Giedrius</td>
+                    <td>Balandis</td>
+                    <td>Vilnius</td>
+                    <td>giedrius.balandis@gmail.com</td>
+                    <td>866677777<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
+                </tr>
+                <tr class="hide" id="2">
+                    <td class="id" style="display:none;">2</td>
+                    <td class="name">Egidijus</td>
+                    <td>Pavasaris</td>
+                    <td>Vilnius</td>
+                    <td>egidijus.pavasaris@gmail.com</td>
+                    <td>861212345<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
+                </tr>
+                <tr class="hide" id="3">
+                    <td class="id" style="display:none;">3</td>
+                    <td class="name">Donatas</td>
+                    <td>Burokas</td>
+                    <td>Kaunas</td>
+                    <td>donatas.burokas@gmail.com</td>
+                    <td>868488444<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
+                </tr>
+                <tr class="hide" id="4">
+                    <td class="id" style="display:none;">4</td>
+                    <td class="name">Vidmantas</td>
+                    <td>Vanagas</td>
+                    <td>Taurage</td>
+                    <td>vidmantas.vanagas@gmail.com</td>
+                    <td>866677771<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
+                </tr>
+                <tr class="hide" id="5">
+                    <td class="id" style="display:none;">5</td>
+                    <td>Jolanta</td>
+                    <td>Saltaite</td>
+                    <td>Klaipeda</td>
+                    <td>jolanta.saltaite@gmail.com</td>
+                    <td>866677772<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
+                </tr>
+                <tr class="hide" id="6">
+                    <td class="id" style="display:none;">6</td>
+                    <td>Raminta</td>
+                    <td>Feliciute</td>
+                    <td>Liepalingis</td>
+                    <td>raminta.feliciute@gmail.com</td>
+                    <td>866677773<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
+                </tr>
+            
+            </table>
+        </div>
+		
+	</div>
+
+	<section id="contacts">
+		<div class="contact-form">
+			</div>
+	</section>
+
+	<footer id="cont">
+        <div class="container-left">
+            <div class="left-txt"><a href="#">Dashboard</a><a href="#">Conversations</a><a href="#">Conversations</a></div>
+            <div class="left-info"><p>&copy 2015 Contactify</p><a href="#">About</a><a href="#">Privacy</a></div>
+        </div>
+        <div class="container-mid">
+            <div class="cont-high">
+                <div class="cloud">
+                    <img src="./images/cloud.png" alt="cursor">
+                </div>
+                <div class="some-txt">Last synced<br>2015.06.02 14:33:10</div>
+                <div class="sync-btn">
+                    <button>FORCE SYNC</button>
+                </div>
+            </div>
+            <div class="cont-low">
+                 <div class="doc">
+                    <img src="./images/doc.png" alt="doctor">
+                </div>
+                <div class="some-txt">Help desc and Resolution center available<br>I-IV 08:00-18:00, V 08:00-16:45</div>
+            </div>
+        </div>
+         <div class="container-right">
+             <div class="left-txt"><a href="#">Groups</a><a href="#">Frequently contacted</a><a href="#">Preferences</a><a href="#">Log out</a></div>
+        </div>
+		
+		
+	</footer>
+	
+
+
+	<script src="./js/app.js"></script>
+
+	
+</BODY>
+</HTML>
