@@ -421,6 +421,35 @@ table td {
     float: right;
 }
 
+@media screen and (max-width: 700px){
+   #menu {height: 78px;}
+    #menu>a {margin: 25px 15px; padding: 0 9px; margin-left: inherit; font-size: 20px;}
+    #select-person {display:none; margin-left:0; margin: -35px 0 0 238px;}
+    .container-contactify img {margin: 11px 47px;}
+    .text-name {margin: 2px 2px 10px 48px}
+    .styled-select select {margin: 2px 2px 2px 0px;}
+    .styled-select {display: block; margin: 0 48px; width: 222px;}
+    .container-contactLeft {height: 200px; width: 70%;}
+    .container-contactRight {height: 200px; width: 30%;}
+    .container-btn1 {margin: 14px 48px;}
+    .container-btn2 {display: block; margin: 147px -232px;}
+    .form-main{margin: 157px 0; position: relative; font-size: 8px; width: 100%;}
+    table tr th {padding: 8px;}
+    table td {padding-left: 0;}
+    table tr th img {display:none;}
+    #form-container {height: 351px;}
+    .container-left {width: 30%;}
+    .container-right {width: 30%;}
+    .left-info p {font-size: 10px; margin-left: 21px;}
+    .left-info a {margin: 0 19px; display: block;}
+    #cont {height: 245px;}
+    .cloud {margin: 12px 12px; padding:0;}
+    .some-txt {padding: 0;}
+    .sync-btn {display: block; width: 120px; height: 30px; float:none; margin: -85px 61px;}
+    .doc {padding: 0; margin: 5px 19px;}
+    .left-txt {padding: 38px 0;}
+}
+
 @media screen and (max-width: 450px){
    #menu {height: 78px;}
     #menu>a {margin: 25px 15px; padding: 0 9px; margin-left: inherit; font-size: 20px;}
