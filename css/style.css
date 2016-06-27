@@ -312,6 +312,9 @@ table td {
     border-bottom: 1px solid #E9EAEB;
     color: #41423D;   
 }
+.hide1, .hide2, .hide3, .hide4, .hide5, .hide6 {
+    display: none;
+}
 
 /* Footer */
 
