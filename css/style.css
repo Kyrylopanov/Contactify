@@ -313,6 +313,10 @@ table td {
     color: #41423D;   
 }
 
+.hide1, .hide2, .hide3, .hide4, .hide5, .hide6 {
+    display: none;
+}
+
 /* Footer */
 
 #cont {
