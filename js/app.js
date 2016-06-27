@@ -9,57 +9,107 @@ $(document).ready(function(){
             }
     });
     
-    // Sort by name, Sort by City
+     // Sort by name, Sort by City
     $('#btnFilter').click(function() {
         
         var personVal = $("#enterName").val();
         var city = $("#select-city").val();
         
-        function showOne(id) {
-    $('.hide').not('#' + id).hide();
-        }
         
-        function showCity(id) {
-    $('.hide').not('#' + id).hide();
-        }
-        
-    if (personVal == "Giedrius") {   
-showOne(1);
+    if (personVal == "Giedrius") {  
+            $('.hide2').hide();
+            $('.hide3').hide();
+            $('.hide4').hide();
+            $('.hide5').hide();
+            $('.hide6').hide();
+$('.hide1').show();
     };
         
         if (personVal == "Egidijus") {
-showOne(2);
+            $('.hide1').hide();
+            $('.hide3').hide();
+            $('.hide4').hide();
+            $('.hide5').hide();
+            $('.hide6').hide();
+$('.hide2').show();
     };
         
         if (personVal == "Donatas") {
-showOne(3);
+            $('.hide1').hide();
+            $('.hide2').hide();
+            $('.hide4').hide();
+            $('.hide5').hide();
+            $('.hide6').hide();
+$('.hide3').show();
     };
         
         if (personVal == "Vidmantas") {
-showOne(4);
+            $('.hide1').hide();
+            $('.hide2').hide();
+            $('.hide3').hide();
+            $('.hide5').hide();
+            $('.hide6').hide();
+$('.hide4').show();
     };
         
         if (personVal == "Jolanta") {
-showOne(5);
+            $('.hide1').hide();
+            $('.hide2').hide();
+            $('.hide3').hide();
+            $('.hide4').hide();
+            $('.hide6').hide();
+$('.hide5').show();
     };
         
          if (personVal == "Raminta") {
-showOne(6);
+            $('.hide1').hide();
+            $('.hide2').hide();
+            $('.hide3').hide();
+            $('.hide4').hide();
+            $('.hide5').hide();
+$('.hide6').show();
+             
+             
     };
         if (city == "Vilnius") {   
-showCity('1');
+            $('.hide1').show();
+            $('.hide2').show();
+            $('.hide3').hide();
+            $('.hide4').hide();
+            $('.hide5').hide();
+            $('.hide6').hide();
     };
         if (city == "Kaunas") {   
-showCity('3');
+            $('.hide3').show();
+            $('.hide1').hide();
+            $('.hide2').hide();
+            $('.hide4').hide();
+            $('.hide5').hide();
+            $('.hide6').hide();
     };
-        if (city == "Taurage") {   
-showCity('4');
+        if (city == "Taurage") {  
+            $('.hide4').show();
+            $('.hide1').hide();
+            $('.hide2').hide();
+            $('.hide3').hide();
+            $('.hide5').hide();
+            $('.hide6').hide();
     };
         if (city == "Klaipeda") {   
-showCity('5');
+            $('.hide5').show();
+            $('.hide1').hide();
+            $('.hide2').hide();
+            $('.hide3').hide();
+            $('.hide4').hide();
+            $('.hide6').hide();
     };
         if (city == "Liepalingis") {   
-showCity('6');
+            $('.hide6').show();
+            $('.hide1').hide();
+            $('.hide2').hide();
+            $('.hide3').hide();
+            $('.hide4').hide();
+            $('.hide5').hide();
     };
 })
 })//document.ready
