@@ -44,7 +44,7 @@
             <div class="styled-select">
             
                     <select id="select-city">
-                    	<option value="" disabled selected>Select City</option>
+                        <option value="" disabled selected>select city</option>
                         <option value="Vilnius">Vilnius</option>
                         <option value="Kaunas">Kaunas</option>
                         <option value="Klaipeda">Klaipeda</option>
@@ -74,62 +74,60 @@
     
 	<div id="form-container">
         <div class="form-main" id="contacts">
-            <table border="1" id="#fbody">
-                <tr>
-                    <th style="cursor:pointer">Name<img src="./images/cursor.png" alt="cursor"></th>
+            <table border="1" id="fbody">
+             <thead>
+               
+                    <th class="alphabetic" style="cursor:pointer" id="nameSort">Name<img src="./images/cursor.png" alt="cursor"></th>
                     <th>Surname</th>
-                    <th>City</th>
+                    <th class="alphabetic" style="cursor:pointer" id="citySort">City</th>
                     <th>Email</th>
                     <th>Phone</th>
-                </tr>
-                <tr class="hide1" class="giedrius" id="1">
-                    <td class="id" style="display:none;">1</td>
-                    <td class="name">Giedrius</td>
+            
+             </thead>
+             <tbody>
+               <!-- <tr id="1">
+                    <td id="name">Giedrius</td>
                     <td>Balandis</td>
-                    <td>Vilnius</td>
+                    <td id="city">Vilnius</td>
                     <td>giedrius.balandis@gmail.com</td>
                     <td>866677777<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
                 </tr>
-                <tr class="hide2" id="2">
-                    <td class="id" style="display:none;">2</td>
-                    <td class="name">Egidijus</td>
+                <tr id="2">
+                    <td id="name">Egidijus</td>
                     <td>Pavasaris</td>
-                    <td>Vilnius</td>
+                    <td id="city">Vilnius</td>
                     <td>egidijus.pavasaris@gmail.com</td>
                     <td>861212345<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
                 </tr>
-                <tr class="hide3" id="3">
-                    <td class="id" style="display:none;">3</td>
-                    <td class="name">Donatas</td>
+                <tr id="3">
+                    <td id="name">Donatas</td>
                     <td>Burokas</td>
-                    <td>Kaunas</td>
+                    <td id="city">Kaunas</td>
                     <td>donatas.burokas@gmail.com</td>
                     <td>868488444<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
                 </tr>
-                <tr class="hide4" id="4">
-                    <td class="id" style="display:none;">4</td>
-                    <td class="name">Vidmantas</td>
+                <tr id="4">
+                    <td id="name">Vidmantas</td>
                     <td>Vanagas</td>
-                    <td>Taurage</td>
+                    <td id="city">Taurage</td>
                     <td>vidmantas.vanagas@gmail.com</td>
                     <td>866677771<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
                 </tr>
-                <tr class="hide5" id="5">
-                    <td class="id" style="display:none;">5</td>
-                    <td>Jolanta</td>
+                <tr id="5">
+                    <td id="name">Jolanta</td>
                     <td>Saltaite</td>
-                    <td>Klaipeda</td>
+                    <td id="city">Klaipeda</td>
                     <td>jolanta.saltaite@gmail.com</td>
                     <td>866677772<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
                 </tr>
-                <tr class="hide6" id="6">
-                    <td class="id" style="display:none;">6</td>
-                    <td>Raminta</td>
+                <tr id="6">
+                    <td id="name">Raminta</td>
                     <td>Feliciute</td>
-                    <td>Liepalingis</td>
+                    <td id="city">Liepalingis</td>
                     <td>raminta.feliciute@gmail.com</td>
                     <td>866677773<a href="#">Actions<img src="./images/actions.png" alt="actions"></a></td>
-                </tr>
+                </tr> -->
+             </tbody>
             
             </table>
         </div>
