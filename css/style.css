@@ -256,6 +256,8 @@ header {
     margin: 25px 0;
 }
 
+
+
 /* Table Form */
 #form-container {
     width: 100%;
@@ -274,17 +276,17 @@ table {
     width: 100%;
 }
 
-table tr:first-child {
+table tr {
     border: 1px solid #5FA7CD;
     text-align: left;
     height: 39px;
-    background-color: #5394B9;
+    background-color: #fff;
     color: #fff;
     padding: 15px;
 }
 
-table tr th {
-    
+table thead th {
+    background-color: #5394B9;
     border: 1px #5FA7CD;
     padding: 15px;
 }
